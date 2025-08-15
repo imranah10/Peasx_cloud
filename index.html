@@ -5,96 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEASx CLOUD</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- font font-awesome cdn  -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
+        body { font-family: 'Poppins', sans-serif; }
     </style>
 </head>
 <body class="bg-gray-50">
     <div class="w-full min-h-screen">
+        
         <!-- Fixed Navbar -->
-        <div class="fixed top-0 left-0 w-full flex items-center justify-between py-5 px-8 z-50 bg-white shadow-xl ">
-            <div>
-                <h1 class="font-bold text-2xl text-gray-800">PEASx CLOUD</h1>
-            </div>
-            <div>
-                <h1 class="text-[#1E40AF] font-bold text-[18px] cursor-pointer hover:underline">Sign-In</h1>
-            </div>
-        </div>
+      <!-- Fixed Navbar -->
+<div class="fixed top-0 left-0 w-full flex flex-row items-center justify-between flex-wrap gap-2 py-5 px-4 sm:px-8 z-50 bg-white shadow-xl">
+    <h1 class="font-bold text-xl sm:text-2xl text-gray-800">PEASx CLOUD</h1>
+    <h1 class="text-[#1E40AF] font-bold text-base sm:text-[18px] cursor-pointer hover:underline">Sign-In</h1>
+</div>
+
 
         <!-- Hero Section -->
-        <div class="max-w-7xl mx-auto mt-50">
+        <div class="max-w-7xl mx-auto mt-[100px]">
             <div class="text-center p-5">
                 <h1 class="text-3xl sm:text-4xl md:text-[57px] font-bold leading-tight">
                     Find Your Perfect Domain Name Today!
                 </h1>
-                <p class="text-gray-700 mt-4 text-sm sm:text-base md:text-lg  mx-auto">
+                <p class="text-gray-700 mt-4 text-sm sm:text-base md:text-lg mx-auto">
                     Secure your online identity in seconds. Search, register, and get your dream domain before someone else does.
                 </p>
             </div>
         </div>
 
         <!-- Search Section -->
-<div class="max-w-2xl mx-auto px-5">
-    <div class="bg-white shadow-lg rounded-2xl p-2 flex items-center gap-2 border border-gray-300">
-        <i class="fa-solid fa-magnifying-glass text-gray-400 ml-3"></i>
-        <input
-            type="text"
-            placeholder="Search for your domain name... e.g. mybusiness.com"
-            class="flex-1 px-3  focus:outline-none text-gray-700 text-sm sm:text-base"
-        />
-        <button class="  px-6 py-2 rounded-lg cursor-pointer ">
-            Search
-        </button>
-    </div>
-    <p class="text-gray-700 mt-4 text-center text-sm sm:text-base">
-        Starting at just ₹199/year. Instant activation. Free WHOIS Privacy.
-    </p>
-</div>
+        <div class="max-w-2xl mx-auto px-4 sm:px-5">
+            <div class="bg-white shadow-lg rounded-2xl p-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-2 border border-gray-300">
+                <div class="flex items-center gap-2 flex-1">
+                    <i class="fa-solid fa-magnifying-glass text-gray-400 ml-3"></i>
+                    <input type="text" placeholder="Search for your domain name... e.g. mybusiness.com"
+                        class="flex-1 px-3 py-2 focus:outline-none text-gray-700 text-sm sm:text-base" />
+                </div>
+                <button class="px-6 py-2 rounded-lg cursor-pointer border border-gray-300">
+                    Search
+                </button>
+            </div>
+            <p class="text-gray-700 mt-4 text-center text-sm sm:text-base">
+                Starting at just ₹199/year. Instant activation. Free WHOIS Privacy.
+            </p>
+        </div>
 
-<!-- Boxes Section -->
-<div class="max-w-2xl mx-auto mt-12 flex flex-wrap items-center justify-center gap-4">
-    <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 transiton duration-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
-        <p>.com <span class="line-through text-gray-500">₹197</span></p>
-        <p class="font-semibold text-gray-800">₹200</p>
-    </div>
-    <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 transiton duration-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
-        <p>.online <span class="line-through text-gray-500">₹500</span></p>
-        <p class="font-semibold text-gray-800">₹300</p>
-    </div>
-    <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 transiton duration-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
-        <p>.pro <span class="line-through text-gray-500">₹9000</span></p>
-        <p class="font-semibold text-gray-800">₹352</p>
-    </div>
-    <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 transiton duration-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
-        <p>.net <span class="line-through text-gray-500">₹8000</span></p>
-        <p class="font-semibold text-gray-800">₹200</p>
-    </div>
-    <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 transiton duration-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
-        <p>.xyz <span class="line-through text-gray-500">₹990</span></p>
-        <p class="font-semibold text-gray-800">₹500</p>
-    </div>
-</div>
+        <!-- Boxes Section -->
+        <div class="max-w-2xl mx-auto mt-12 flex flex-wrap items-center justify-center gap-4">
+            <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
+                <p>.com <span class="line-through text-gray-500">₹197</span></p>
+                <p class="font-semibold text-gray-800">₹200</p>
+            </div>
+            <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
+                <p>.online <span class="line-through text-gray-500">₹500</span></p>
+                <p class="font-semibold text-gray-800">₹300</p>
+            </div>
+            <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
+                <p>.pro <span class="line-through text-gray-500">₹9000</span></p>
+                <p class="font-semibold text-gray-800">₹352</p>
+            </div>
+            <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
+                <p>.net <span class="line-through text-gray-500">₹8000</span></p>
+                <p class="font-semibold text-gray-800">₹200</p>
+            </div>
+            <div class="w-24 sm:w-26 h-24 sm:h-26 hover:border-[#1E40AF] hover:bg-gray-300 text-center rounded-lg border-2 border-[#134E4A] py-4 px-6 transition-all duration-200">
+                <p>.xyz <span class="line-through text-gray-500">₹990</span></p>
+                <p class="font-semibold text-gray-800">₹500</p>
+            </div>
+        </div>
 
- <!-- footer  -->
-  <div class="w-full bg-[#134E4A]  mt-10">
-    <div class=" text-center text-white p-2">
-        <h1 class=" text-2xl sm:text-3xl md:text-[55px] font-bold ">
-            Run Your Business on the Cloud You Can Trust
-        </h1>
-        <p class=" mt-4 text-sm sm:text-base md:text-xl max-w-6xl mx-auto">
-            Our hosting services are built on Microsoft Azure’s local data centers, ensuring your data stays safe, compliant, and lightning-fast for your region. Backed by our expert support team, you get peace of mind, maximum uptime, and performance you can rely on.
-        </p>
-    </div>
-  </div>
+        <!-- Footer -->
+        <div class="w-full bg-[#134E4A] mt-10">
+            <div class="text-center text-white p-2">
+                <h1 class="text-2xl sm:text-3xl md:text-[55px] font-bold">
+                    Run Your Business on the Cloud You Can Trust
+                </h1>
+                <p class="mt-4 text-sm sm:text-base md:text-xl max-w-6xl mx-auto">
+                    Our hosting services are built on Microsoft Azure’s local data centers, ensuring your data stays safe, compliant, and lightning-fast for your region. Backed by our expert support team, you get peace of mind, maximum uptime, and performance you can rely on.
+                </p>
+            </div>
+        </div>
 
     </div>
 </body>
